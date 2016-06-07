@@ -21,7 +21,7 @@ public class TaxLot extends  BaseEntity
 	protected ClosingMethod closingMethod;
 	protected boolean reinvestDividends;
 	protected UUID custodianId;
-	protected InventoryState inventoryState;
+	protected  ;
 	protected Date closeTradeDate;
 	protected UUID accountId;
 	protected UUID positionId;
@@ -30,7 +30,7 @@ public class TaxLot extends  BaseEntity
 		super();
 	}
 	
-	public TaxLot(UUID id, String extId, Short sourceId , LocalDate openDate, UUID securityId, boolean isShort, BigDecimal costLocal, BigDecimal costBook, BigDecimal openQuantity, ClosingMethod closingMethod, boolean reinvestDividends, UUID custodianId, InventoryState inventoryState, Date closeTradeDate
+	public TaxLot(UUID id, String extId, Short sourceId , LocalDate openDate, UUID securityId, boolean isShort, BigDecimal costLocal, BigDecimal costBook, BigDecimal openQuantity, ClosingMethod closingMethod, boolean reinvestDividends, UUID custodianId,  , Date closeTradeDate
 	, UUID accountId, UUID positionId
 	
 	) {
@@ -46,7 +46,7 @@ public class TaxLot extends  BaseEntity
         this.closingMethod = closingMethod;
         this.reinvestDividends = reinvestDividends;
         this.custodianId = custodianId;
-        this.inventoryState = inventoryState;
+        this. = ;
         this.closeTradeDate = closeTradeDate;
         this.accountId = accountId;
         this.positionId = positionId;
@@ -135,12 +135,12 @@ public class TaxLot extends  BaseEntity
 	}
 	
 	
-	public InventoryState getInventoryState() {
-	    return this.inventoryState;
+	public  get() {
+	    return this.;
 	}
 	
-	public void setInventoryState(InventoryState inventoryState) {
-	    this.inventoryState = inventoryState;
+	public void set( ) {
+	    this. = ;
 	}
 	
 	
@@ -187,7 +187,7 @@ public class TaxLot extends  BaseEntity
                 ", closingMethod='" + closingMethod + '\'' +
                 ", reinvestDividends='" + reinvestDividends + '\'' +
                 ", custodianId='" + custodianId + '\'' +
-                ", inventoryState='" + inventoryState + '\'' +
+                ", ='" +  + '\'' +
                 ", closeTradeDate='" + closeTradeDate + '\'' +
                 ", accountId='" + accountId + '\'' +
                 ", positionId='" + positionId + '\'' +
