@@ -1,0 +1,5 @@
+package com.advent.oc.domain.security;
+public enum CFIDebtGroup
+{
+	GOVERMENT_BONDS, CORPORATE_BONDS, ASSET_BACKED, MORTGAGE_BACKED, MUNI_BONDS, AGENCY_BONDS, OTHER_DEBT, MONEY_MARKET;
+}
